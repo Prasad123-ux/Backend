@@ -2,8 +2,11 @@
   "name": "chai-aur-backend",
   "version": "1.0.0",
   "description": "just backend project",
+  "type": "module", 
   "main": "index.js",
   "scripts": {
+    "dev":"nodemon src/index.js",
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Prasad Metkar",
